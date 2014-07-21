@@ -11,7 +11,7 @@
     <form:form id="login" action="login.do" method="post"  commandName="utente">
         <table>
             <tr>
-                <td colspan="3"><h3>Login utente</h3></td>
+                <td colspan="2"><h3>Login utente</h3></td>
             </tr>
             <tr>
                 <td><label>UserName</label></td>
@@ -22,7 +22,7 @@
                 <td><form:input path="password" type="password"></form:input></td>
             </tr>
             <tr>
-                <td colspan="3" align="center"><input type="submit" value="Login" /></td>
+                <td colspan="2" align="center"><input type="submit" value="Login" /></td>
                 <td></td>
             </tr>
         </table>
