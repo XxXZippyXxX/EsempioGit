@@ -59,6 +59,10 @@ public class logincontroller
 		{
 			return "loginko";
 		}
+		catch (final NullPointerException e)
+		{
+			return "loginko";
+		}
 	}
 
 }
