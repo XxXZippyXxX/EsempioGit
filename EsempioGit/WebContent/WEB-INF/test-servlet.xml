@@ -19,6 +19,6 @@
 	
 	
 	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
-		<property name="basename" value="properties.utenti"/>
+		<property name="basename" value="properties.messaggi"/>
 		</bean>
 </beans>

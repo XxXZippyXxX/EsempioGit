@@ -6,9 +6,9 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Stampa</title>
+<title>Welcome!!!</title>
 </head>
 <body>
-<h2>Benvenuto ${utente.username}</h2>
+<center><h2 style="color: blue;">Benvenuto/a ${utente.username}</h2></center>
 </body>
 </html>
