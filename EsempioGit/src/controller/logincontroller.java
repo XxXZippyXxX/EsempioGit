@@ -1,5 +1,7 @@
 package controller;
 
+import model.Utente;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,12 +11,13 @@ import model.Utente;
 
 
 @Controller
+@RequestMapping("/login.do")
 public class logincontroller
 {
 
 
-	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public String login(@ModelAttribute("utente") Utente utente)
+	@RequestMapping( method = RequestMethod.POST)
+	protected String login(@ModelAttribute("utente") Utente utente)
 	{
 		
 		System.out.println(utente.getUsername() + utente.getPassword());

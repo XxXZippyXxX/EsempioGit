@@ -1,31 +1,14 @@
-<%@    taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>HOMEPAGE</title>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
-
-<title>Esempio di Git Homepage</title>
-</head>
 <body>
-    <form:form id="login" action="login.do" method="post"  commandName="utente">
-        <table>
-            <tr>
-                <td colspan="2"><h3>Login utente</h3></td>
-            </tr>
-            <tr>
-                <td><label>UserName</label></td>
-                <td><form:input path="userName"></form:input></td>
-            </tr>
-            <tr>
-                <td><label>Password</label></td>
-                <td><form:password path="password" ></form:password></td>
-            </tr>
-            <tr>
-                <td colspan="2" align="center"><input type="submit" value="Login" /></td>
-                <td></td>
-            </tr>
-        </table>
-    </form:form>
-</body>
-</html>
+<h2 id="titolo">PREMI IL TASTO E ACCEDI</h2>
+<center>
+<table><tr><td>
+<form method="GET" action="requestLogin.do">
+<input type="submit" value="REGISTRA NUOVO CLIENTE"/></form></td></tr></table>
+</center>

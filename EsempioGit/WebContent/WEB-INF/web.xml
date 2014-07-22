@@ -27,16 +27,5 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j
                <taglib-location>/WEB-INF/spring-form.tld</taglib-location> 
         </taglib> 
 </jsp-config>
-
-    <listener>
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-    </listener>
-    
-    <context-param> 
-<param-name>contextConfigLocation</param-name> 
-<param-value>classpath*:META-INF/spring/applicationContext*.xml</param-value> 
-</context-param>
-
-
 </web-app>
   

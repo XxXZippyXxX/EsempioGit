@@ -1,4 +1,7 @@
 package model;
+
+import org.springframework.stereotype.Component;
+
 /**
  * 
  * @author alessandra.smarra
@@ -7,8 +10,18 @@ package model;
 public class Utente {
 	private String username;
 	private String password;
-	public Utente() {
+	
+	
+	
+	public Utente(String username, String password) {
 		super();
+		this.username = username;
+		this.password = password;
+	}
+
+
+	public Utente() {
+
 	}
 	/**
 	 * 
