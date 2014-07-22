@@ -6,7 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body bgcolor="brown">
-<h2>Credenziali Errate</h2>
+<body>
+<center><h2 style="color: red;">Credenziali Errate</h2>
+<a href="index.jsp">Ritorna alla pagina principale</a></center>
 </body>
 </html>
