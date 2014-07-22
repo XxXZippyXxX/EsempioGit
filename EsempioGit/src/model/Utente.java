@@ -1,6 +1,6 @@
 package model;
 
-import org.springframework.stereotype.Component;
+
 
 /**
  * 
