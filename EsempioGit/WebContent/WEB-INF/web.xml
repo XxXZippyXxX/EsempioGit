@@ -9,7 +9,7 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j
   <servlet>
     <servlet-name>test</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-    <load-on-startup>2</load-on-startup>
+    <load-on-startup>2</load-on-startup>  
   </servlet>
   <servlet-mapping>
     <servlet-name>test</servlet-name>
@@ -27,4 +27,16 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j
                <taglib-location>/WEB-INF/spring-form.tld</taglib-location> 
         </taglib> 
 </jsp-config>
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    
+    <context-param> 
+<param-name>contextConfigLocation</param-name> 
+<param-value>classpath*:META-INF/spring/applicationContext*.xml</param-value> 
+</context-param>
+
+
 </web-app>
+  

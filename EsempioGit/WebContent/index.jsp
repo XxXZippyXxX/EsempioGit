@@ -19,7 +19,7 @@
             </tr>
             <tr>
                 <td><label>Password</label></td>
-                <td><form:input path="password" type="password"></form:input></td>
+                <td><form:password path="password" ></form:password></td>
             </tr>
             <tr>
                 <td colspan="2" align="center"><input type="submit" value="Login" /></td>
